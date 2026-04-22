@@ -1,4 +1,3 @@
-
 import 'package:clusters_kronos/Common%20Screens/Splash%20Screen/splashScreen.dart';
 import 'package:clusters_kronos/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
