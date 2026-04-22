@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774339949154",
+    "project_id": "clusters-codex",
+    "storage_bucket": "clusters-codex.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774339949154:android:736410c92ddaa54cedd73b",
+        "android_client_info": {
+          "package_name": "com.example.clusters_kronos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYUefyLP3B88RqWTuGHUdOGKVh0F8ebZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
