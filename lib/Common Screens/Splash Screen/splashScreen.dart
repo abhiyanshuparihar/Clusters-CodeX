@@ -1,7 +1,17 @@
+import 'package:clusters_kronos/Admin%20Screens/Home%20Screen%20Admin/homeScreenAdmin.dart';
+import 'package:clusters_kronos/Common%20Screens/Login%20Screen/loginScreen.dart';
+import 'package:clusters_kronos/Customer%20Screens/Home%20Screen%20Customer/homeScreenCustomer.dart';
+import 'package:clusters_kronos/Distributers%20Screen/Distributer%20Home%20Screen/distributerHomeScreen.dart';
+import 'package:clusters_kronos/Manufacturer%20Screens/Manufacturer%20Home%20Screen/manufacturerHomeScreen.dart';
+import 'package:clusters_kronos/Merchant%20Screens/Home%20Screen%20Merchant/homeScreenMerchant.dart';
+import 'package:clusters_kronos/Warehousing%20Screens/Warehousing%20Home%20Screen/wareHousingHomeScreen.dart';
+import 'package:clusters_kronos/WholeSalers%20Screen/WholeSalers%20Home%20Screen/wholeSalersHomeScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

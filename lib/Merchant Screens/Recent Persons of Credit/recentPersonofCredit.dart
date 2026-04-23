@@ -3,8 +3,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:cretex/UI%20Helper/Colors/colors.dart';
-import 'package:cretex/UI%20Helper/Gradients/gradients.dart';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
 
 class SettlementRoomsPage extends StatefulWidget {
   const SettlementRoomsPage({super.key});

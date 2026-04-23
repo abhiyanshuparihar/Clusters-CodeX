@@ -1,8 +1,9 @@
+import 'package:clusters_kronos/Customer%20Screens/Customer%20Signup%20Screen/customerSignupScreen.dart';
+import 'package:clusters_kronos/Merchant%20Screens/Merchant%20Signup%20Screen/merchantSignupScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
 import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
-
 
 class AccountTypeScreen extends StatefulWidget {
   @override

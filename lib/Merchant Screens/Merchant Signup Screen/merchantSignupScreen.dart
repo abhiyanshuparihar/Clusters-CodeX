@@ -1,9 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cretex/Merchant%20Screens/Shop%20Creation%20Screen/shopCreationScreen.dart';
+import 'package:clusters_kronos/Merchant%20Screens/Shop%20Creation%20Screen/shopCreationScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui';
-import 'package:cretex/UI%20Helper/Gradients/gradients.dart';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
+
 
 class MerchantRegistrationPage extends StatefulWidget {
   @override

@@ -1,12 +1,12 @@
-import 'package:cretex/Common%20Screens/Login%20Screen/loginScreen.dart';
-import 'package:cretex/Warehousing%20Screens/Scanning%20Qr%20Page/scanningAndSaving.dart';
+import 'package:clusters_kronos/Common%20Screens/Login%20Screen/loginScreen.dart';
+import 'package:clusters_kronos/Warehousing%20Screens/Scanning%20Qr%20Page/scanningAndSaving.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:math' as math;
-import 'package:cretex/UI%20Helper/Colors/colors.dart';
-import 'package:cretex/UI%20Helper/Gradients/gradients.dart';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
 
 class ParentProductData {
   final String parentId;

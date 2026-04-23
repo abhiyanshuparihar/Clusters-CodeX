@@ -1,12 +1,13 @@
-import 'package:cretex/Merchant%20Screens/Home%20Screen%20Merchant/homeScreenMerchant.dart';
+import 'package:clusters_kronos/Merchant%20Screens/Home%20Screen%20Merchant/homeScreenMerchant.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:io';
 import 'package:qr_code_tools/qr_code_tools.dart';
-import 'package:cretex/UI%20Helper/Colors/colors.dart';
-import 'package:cretex/UI%20Helper/Gradients/gradients.dart';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
+
 class ShopCreationPage extends StatefulWidget {
   @override
   _ShopCreationPageState createState() => _ShopCreationPageState();
@@ -280,7 +281,7 @@ class _ShopCreationPageState extends State<ShopCreationPage>
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: ElevatedButton(
-                    onPressed: () {
+                    onPressed: (){
                       Navigator.of(context).pop();
                       Navigator.pushAndRemoveUntil(
                         context,

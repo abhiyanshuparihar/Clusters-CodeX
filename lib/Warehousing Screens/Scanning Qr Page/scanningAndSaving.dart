@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:cretex/UI%20Helper/Colors/colors.dart';
-import 'package:cretex/UI%20Helper/Gradients/gradients.dart';
+import 'package:clusters_kronos/UI%20Helper/Colors/colors.dart';
+import 'package:clusters_kronos/UI%20Helper/Gradients/gradients.dart';
 
 Future<bool> _simulateWarehousingProcess(BuildContext context, String productHash) async {
   await Future.delayed(const Duration(milliseconds: 500));
